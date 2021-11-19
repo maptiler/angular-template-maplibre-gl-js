@@ -2,9 +2,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Quick way to star a web map application with MapLibre GL JS using Angular.
+A quick way to start a web map application with MapLibre GL JS using Angular.
 
-A simple fullscreen map application as an example on how to use MapTiler maps together with Angular and MapLibre GL JS for your Aungular app.
+A simple fullscreen map application is used to showcase how to utilize MapTiler maps together with Angular and MapLibre GL JS for your Angular app.
 
 ## Screenshot
 
@@ -65,11 +65,11 @@ Open the `environment.ts` and `environment.prod.ts` file, :warning: you will nee
 
 Your MapTiler account access key is on your MapTiler [Cloud](https://cloud.maptiler.com/account/keys/) account page. 
 
-:information_source: If you don't have an API KEY you can create it for free at https://www.maptiler.com/cloud/
+:information_source: If you don't have an API KEY, you can create it for free at https://www.maptiler.com/cloud/
 
 ### Run
 
-To start your local environment run: 
+To start your local environment, run: 
 
 ```
   ng serve --open
@@ -91,5 +91,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Instead of using or developing a custom map component you can use the [Angular binding of maplibre-gl-js](https://maplibre.org/ngx-maplibre-gl/)
+Instead of using or developing a custom map component, you can use the [Angular binding of maplibre-gl-js](https://maplibre.org/ngx-maplibre-gl/).
 
