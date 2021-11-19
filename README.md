@@ -1,27 +1,89 @@
-# MyNgApp
+# MapLibre GL JS map using Angular
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+Quick way to star a web map application with MapLibre GL JS using Angular.
+
+A simple fullscreen map application as an example on how to use MapTiler maps together with Angular and MapLibre GL JS for your Aungular app.
+
+## Screenshot
+
+![angular maplibre template](/assets/angular-maplibre-template.png "Angular MapLibre template")
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Demo
+
+Online demo: https://maptiler.github.io/angular-template-maplibre-gl-js/
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Build With
+
+* [Angular](https://angular.io/)
+* [MapLibre GL JS](https://maplibre.org/)
+* [MapTiler](https://www.maptiler.com/)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.2.
 
-## Development server
+## Getting Started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Prerequisites
 
-## Code scaffolding
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
+* Angular CLI
+  ```sh
+  npm install -g @angular/cli
+  ```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-## Build
+### Create an app
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+To create a new angular project run in your command-line:
 
-## Running unit tests
+```
+  git clone https://github.com/maptiler/angular-template-maplibre-gl-js.git my-angular-map
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Navigate to the newly created project folder **my-angular-map**
 
-## Running end-to-end tests
+### API KEY
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Navigate to the `src/environments` folder
 
-## Further help
+Open the `environment.ts` and `environment.prod.ts` file, :warning: you will need to replace **YOUR_MAPTILER_API_KEY** with your own MapTiler API key.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Your MapTiler account access key is on your MapTiler [Cloud](https://cloud.maptiler.com/account/keys/) account page. 
+
+:information_source: If you don't have an API KEY you can create it for free at https://www.maptiler.com/cloud/
+
+### Run
+
+To start your local environment run: 
+
+```
+  ng serve --open
+``` 
+
+You will find your app on address http://localhost:4200/.
+
+Now you should see the app in your browser.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+Instead of using or developing a custom map component you can use the [Anguar binding of maplibre-gl-js](https://maplibre.org/ngx-maplibre-gl/)
+

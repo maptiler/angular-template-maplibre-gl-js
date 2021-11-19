@@ -1,6 +1,7 @@
 {
-  "name": "my-ng-app",
-  "version": "0.0.0",
+  "name": "angular-template-maplibre-gl-js",
+  "version": "1.0.0",
+  "description": "Quick way to star a web map application with MapLibre GL JS using Angular.",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,7 +9,20 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
+  "private": false,
+  "keywords": [
+    "angular",
+    "template",
+    "map",
+    "maplibre",
+    "maplibre-gl-js"
+  ],
+  "author": "MapTiler Team <info@maptiler.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maptiler/angular-template-maplibre-gl-js/issues"
+  },
+  "homepage": "https://github.com/maptiler/angular-template-maplibre-gl-js#readme",
   "dependencies": {
     "@angular/animations": "~13.0.0",
     "@angular/common": "~13.0.0",
@@ -18,6 +32,8 @@
     "@angular/platform-browser": "~13.0.0",
     "@angular/platform-browser-dynamic": "~13.0.0",
     "@angular/router": "~13.0.0",
+    "@types/maplibre-gl": "^1.14.0",
+    "maplibre-gl": "^1.15.2",
     "rxjs": "~7.4.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
@@ -26,6 +42,7 @@
     "@angular-devkit/build-angular": "~13.0.2",
     "@angular/cli": "~13.0.2",
     "@angular/compiler-cli": "~13.0.0",
+    "@types/geojson": "^7946.0.8",
     "@types/jasmine": "~3.10.0",
     "@types/node": "^12.11.1",
     "jasmine-core": "~3.10.0",
