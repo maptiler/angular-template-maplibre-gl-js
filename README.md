@@ -43,13 +43,19 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ### Create an app
 
-To create a new angular project run in your command-line:
+Clone the repo to create a new angular project. Run in your command-line:
 
 ```
   git clone https://github.com/maptiler/angular-template-maplibre-gl-js.git my-angular-map
 ```
 
 Navigate to the newly created project folder **my-angular-map**
+
+Install the NPM packages dependencies. Run in your command-line:
+
+```
+  npm install
+```
 
 ### API KEY
 
