@@ -91,5 +91,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Instead of using or developing a custom map component you can use the [Anguar binding of maplibre-gl-js](https://maplibre.org/ngx-maplibre-gl/)
+Instead of using or developing a custom map component you can use the [Angular binding of maplibre-gl-js](https://maplibre.org/ngx-maplibre-gl/)
 
