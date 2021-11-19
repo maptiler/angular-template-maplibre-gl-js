@@ -14,7 +14,7 @@ A simple fullscreen map application as an example on how to use MapTiler maps to
 
 ## Demo
 
-Online demo: https://maptiler.github.io/angular-template-maplibre-gl-js/
+Online demo: https://labs.maptiler.com/angular-template-maplibre-gl-js/
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
