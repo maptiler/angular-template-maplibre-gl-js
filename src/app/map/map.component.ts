@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild, ElementRef, AfterViewInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef, AfterViewInit, OnDestroy } from '@angular/core';
 import { environment } from '@env/environment';
 
 import { Map, NavigationControl } from 'maplibre-gl';
@@ -8,7 +8,7 @@ import { Map, NavigationControl } from 'maplibre-gl';
   templateUrl: './map.component.html',
   styleUrls: ['./map.component.css']
 })
-export class MapComponent implements OnInit, AfterViewInit {
+export class MapComponent implements OnInit, AfterViewInit, OnDestroy {
   map: Map | undefined;
 
   @ViewChild('map')
