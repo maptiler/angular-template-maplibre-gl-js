@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewChild, ElementRef, AfterViewInit, OnDestroy } from '@angular/core';
 import { environment } from '@env/environment';
 
-import { Map, NavigationControl } from 'maplibre-gl';
+import { Map, NavigationControl, Marker } from 'maplibre-gl';
 
 @Component({
   selector: 'app-map',
@@ -30,6 +30,9 @@ export class MapComponent implements OnInit, AfterViewInit, OnDestroy {
     });
 
     this.map.addControl(new NavigationControl());
+    new Marker({color: "#FF0000"})
+      .setLngLat([139.7525,35.6846])
+      .addTo(this.map);
   }
 
   ngOnDestroy() {
