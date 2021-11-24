@@ -1,7 +1,7 @@
 {
   "name": "angular-template-maplibre-gl-js",
   "version": "1.0.0",
-  "description": "Quick way to star a web map application with MapLibre GL JS using Angular.",
+  "description": "A quick way to start a web map application with Angular using MapLibre GL JS.",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

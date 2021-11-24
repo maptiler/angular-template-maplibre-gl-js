@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A quick way to start a web map application with MapLibre GL JS using Angular.
+A quick way to start a web map application with Angular using MapLibre GL JS.
 
 A simple fullscreen map application is used to showcase how to utilize MapTiler maps together with Angular and MapLibre GL JS for your Angular app.
 
