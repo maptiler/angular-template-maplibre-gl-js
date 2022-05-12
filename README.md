@@ -12,6 +12,10 @@ A simple fullscreen map application is used to showcase how to utilize MapTiler 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+## Step-by-step tutorial - How to display a map in Angular using MapLibre GL JS
+
+Documentation: [How to display a map in Angular using MapLibre GL JS](https://documentation.maptiler.com/hc/en-us/articles/4411342514193-how-to-display-a-map-in-angular-using-maplibre-gl-js?utm_medium=referral&utm_source=github&utm_campaign=2022-05%20%7C%20js%20frameworks%20%7C%20angular)
+
 ## Demo
 
 Online demo: https://labs.maptiler.com/angular-template-maplibre-gl-js/
@@ -80,6 +84,20 @@ You will find your app on address http://localhost:4200/.
 Now you should see the app in your browser.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+### Build
+
+To build for production, run: 
+```
+  ng build --base-href /angular-template-maplibre-gl-js/
+``` 
+
+### gh-pages
+
+To deploy the app to the gh-pages branch, run:
+```
+  node gh-pages.js
+```
 
 <!-- LICENSE -->
 ## License

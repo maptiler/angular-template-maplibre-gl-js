@@ -1,7 +1,7 @@
 const ghpages = require('gh-pages');
 
 ghpages.publish(
-    'dist', // path to public directory
+    'dist/my-ng-app', // path to public directory
     () => {
         console.log('Deploy Complete!')
     }
