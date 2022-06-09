@@ -8,7 +8,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "predeploy": "npm run build",
+    "predeploy": "ng build --base-href /angular-template-maplibre-gl-js/",
     "deploy": "node gh-pages.js"
   },
   "private": false,
