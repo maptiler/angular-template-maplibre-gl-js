@@ -14,7 +14,7 @@ A simple fullscreen map application is used to showcase how to utilize MapTiler 
 
 ## Step-by-step tutorial - How to display a map in Angular using MapLibre GL JS
 
-Documentation: [How to display a map in Angular using MapLibre GL JS](https://documentation.maptiler.com/hc/en-us/articles/4411342514193-how-to-display-a-map-in-angular-using-maplibre-gl-js?utm_medium=referral&utm_source=github&utm_campaign=2022-05%20%7C%20js%20frameworks%20%7C%20angular)
+Documentation: [How to display a map in Angular using MapLibre GL JS](https://docs.maptiler.com/angular/maplibre-gl-js/how-to-use-maplibre-gl-js/?utm_medium=referral&utm_source=github&utm_campaign=2022-05%20%7C%20js%20frameworks%20%7C%20angular)
 
 ## Demo
 
