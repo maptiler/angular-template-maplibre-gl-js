@@ -84,8 +84,6 @@ You will find your app on address http://localhost:4200/.
 
 Now you should see the app in your browser.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 ### Build
 
 To build for production, run:
